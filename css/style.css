@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #242424;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 900;
+    color: black;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    display: block;
+    background-color: rgb(220, 233, 231);
+}
+
+.container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+}
+
+section.module p{
+    margin-bottom: 40px;
+}
+
+section.module:last-child{
+    margin-bottom: 0;
+}
+
+section.module h1{
+    font-size: 35px;
+    padding-left: 8px;
+}
+
+section.module h2{
+    font-size: 30px;
+}
+
+section.module.content{
+    padding: 40px 0;
+    background-color: rgb(240, 226, 237);
+}
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-image: url("https://i.ytimg.com/vi/TawH-AqHTXc/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+section.module.parallax::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, rgb(2, 9, 70) 100%);
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, rgb(2, 9, 70) 100%);
+    background: -o-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, rgb(2, 9, 70) 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, rgb(2, 9, 70) 100%);
+
+}
+section.module.parallax2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-image: url("https://www.joomshaper.com/images/2018/09/24/parallax-effect-banner.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+section.module.content2{
+    padding: 40px 0;
+    text-align: center;
+    background-color: rgb(240, 226, 237);
+}
+
+section.module.parallax3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/462cd37d-8e10-4376-8ff5-4f13dd9b7741/dc8jexp-937a6ba7-40c6-491d-8f08-875189261b74.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ2MmNkMzdkLThlMTAtNDM3Ni04ZmY1LTRmMTNkZDliNzc0MVwvZGM4amV4cC05MzdhNmJhNy00MGM2LTQ5MWQtOGYwOC04NzUxODkyNjFiNzQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.SGrl8Hc1h0QI4Buf3HerkLK0_n_oz3CCMdi8woIAcM8");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+footer{
+    text-align: center;
+}
+
